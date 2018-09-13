@@ -24,7 +24,7 @@ public class Prison {
 
     //Runs the simulation
     for(int i = 0; i < numRounds; i++) {
-      System.out.println("Round " + (i + 1) + ":\nPlayer 1: " + p1.move(lastChoice1) + "\nPlayer 2: " + p2.move(lastChoice1));
+      System.out.println("Round " + (i + 1) + ":\nPlayer 1: " + p1.move(lastChoice2) + "\nPlayer 2: " + p2.move(lastChoice1));
       if(p1.getMove() && p2.getMove()) {
         p1.changeScore(scoreTie2);
         p2.changeScore(scoreTie2);
