@@ -1,3 +1,16 @@
+# Grade
+80/100
+
+**Note: This is the base grade assigned to your team. Your individual score may vary if I have detected that an individual team member did not contribute to the project.**
+
+## Comments
+- Repository &#10005;
+- Form &#10003;
+- Design &#10003;-
+- Implementation &#10003;+
+
+It looks like you both used the repository but there is no evidence that both of you actually wrote code. All commits were through the web interface by copying the code placed into one branch into a file in the master branch (Repository &#10005;). Let me know if I have this wrong, and you can show me evidence of more substantial collaboration. The implementation of the player class is very nice, however, and I like the notion of storing a strategy as an attribute of the class so it can be easily reused (Implementation &#10003;+). There are ways in Java to make this even more concise, and we will discuss them in later class meetings! Comments are present and the styling is easy to read (Form &#10003;). The code compiles without a problem, though without more detail in the prompt I'm not sure what the possible options are (I figured it out by looking at your code). I can understand your thinking with the Excel sheet, and it's clever, but it's not really what the assignment was looking for. Note that I specifically mention that a strategy can only be declared dominant if there are at least 100 rounds - you test five (Design &#10003;-). Clever workaround to try the Excel file documentationk, but it's not really in the scope of this class to test if you know how to use Office.
+
 # Project 1
 In this project, you will develop bots that play a simple game. Each bot has a different strategy. You will pit these bots against each other to determine which strategy is more successful in this context.
 
